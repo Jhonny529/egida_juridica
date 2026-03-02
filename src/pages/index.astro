@@ -1,0 +1,8 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HomePage from "../features/home";
+---
+
+<Layout>
+  <HomePage client:only="react" />
+</Layout>
